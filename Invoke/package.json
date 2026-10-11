@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "groq-sdk": "^1.6.0"
+  },
+  "name": "tool_calling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+  "start": "node --env-file=.env app.js",
+  "dev": "nodemon --env-file=.env app.js"
+}
+}
