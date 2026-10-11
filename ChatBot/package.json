@@ -1,0 +1,22 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chatbot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tavily/core": "^0.7.14",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.7",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0",
+    "node-cache": "^5.1.2"
+  }
+}
